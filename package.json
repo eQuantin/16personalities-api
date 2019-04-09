@@ -1,0 +1,19 @@
+{
+  "name": "personalities",
+  "version": "1.0.0",
+  "description": "16 personalities test API.",
+  "main": "builder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eQuantin/16personalities-api.git"
+  },
+  "author": "Etienne Quantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eQuantin/16personalities-api/issues"
+  },
+  "homepage": "https://github.com/eQuantin/16personalities-api#readme"
+}
