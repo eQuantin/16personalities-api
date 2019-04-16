@@ -2,301 +2,361 @@
   {
     "id": 1,
     "questionEn": "When at a social event, you rarely try to introduce yourself to new people and mostly talk to the ones you already know.",
-    "questionFr": "Vous avez des difficultés à vous présenter à d’autres personnes."
+    "questionFr": "Vous avez des difficultés à vous présenter à d’autres personnes.",
+    "type": "n"
   },  
   {
     "id": 2,
     "questionEn": "",
-    "questionFR": "Vous êtes souvent si perdu(e) dans vos pensées que vous ignorez ou oubliez votre entourage."
+    "questionFR": "Vous êtes souvent si perdu(e) dans vos pensées que vous ignorez ou oubliez votre entourage.",
+    "type": "n"
   },
   {
     "id": 3,
     "questionEn": "",
-    "questionFr": "Vous essayez de répondre dès que possible à vos e-mails et ne supportez pas d’avoir une boîte de messagerie mal organisée."
+    "questionFr": "Vous essayez de répondre dès que possible à vos e-mails et ne supportez pas d’avoir une boîte de messagerie mal organisée.",
+    "type": "n"
   },
   {
     "id": 4,
     "questionEn": "You can stay calm under a lot of pressure.",
-    "questionFr": "Vous avez des facilités à rester serein(e) et concentré(e), même lorsque certaines situations donnent lieu à une certaine pression."
+    "questionFr": "Vous avez des facilités à rester serein(e) et concentré(e), même lorsque certaines situations donnent lieu à une certaine pression.",
+    "type": "n"
   },
   {
     "id": 5,
     "questionEn": "You often rely on other people to be the ones to start a conversation and keep it going.",
-    "questionFr": "Habituellement, vous ne lancez pas les conversations."
+    "questionFr": "Habituellement, vous ne lancez pas les conversations.",
+    "type": "n"
   },
   {
     "id": 6,
     "questionEn": "",
-    "questionFr": "Vous entreprenez rarement des actions par simple curiosité."
+    "questionFr": "Vous entreprenez rarement des actions par simple curiosité.",
+    "type": "n"
   },
   {
     "id": 7,
     "questionEn": "",
-    "questionFr": "Vous vous sentez supérieur(e) aux autres."
+    "questionFr": "Vous vous sentez supérieur(e) aux autres.",
+    "type": "n"
   },
   {
     "id": 8,
     "questionEn": "",
-    "questionFr": "Pour vous, être organisé(e) est plus important qu’être flexible."
+    "questionFr": "Pour vous, être organisé(e) est plus important qu’être flexible.",
+    "type": "n"
   },
   {
     "id": 9,
     "questionEn": "",
-    "questionFr": "Vous êtes généralement très motivé(e) et plein(e) d’énergie."
+    "questionFr": "Vous êtes généralement très motivé(e) et plein(e) d’énergie.",
+    "type": "n"
   },
   {
     "id": 10,
     "questionEn": "",
-    "questionFr": "Gagner un débat vous importe moins que d’avoir la certitude que personne n’est contrarié."
+    "questionFr": "Gagner un débat vous importe moins que d’avoir la certitude que personne n’est contrarié.",
+    "type": "n"
   },
   {
     "id": 11,
     "questionEn": "",
-    "questionFr": "Vous avez souvent l’impression de devoir vous justifier auprès de vos pairs."
+    "questionFr": "Vous avez souvent l’impression de devoir vous justifier auprès de vos pairs.",
+    "type": "n"
   },
   {
     "id": 12,
     "questionEn": "You have a careful and methodical approach to life.",
-    "questionFr": "Au travail et au domicile, votre environnement de vie est assez ordonné."
+    "questionFr": "Au travail et au domicile, votre environnement de vie est assez ordonné.",
+    "type": "n"
   },
   {
     "id": 13,
     "questionEn": "",
-    "questionFr": "Cela ne vous dérange pas d’être le centre de l’attention."
+    "questionFr": "Cela ne vous dérange pas d’être le centre de l’attention.",
+    "type": "n"
   },
   {
     "id": 14,
     "questionEn": "",
-    "questionFr": "Vous considérez votre esprit comme plus pratique que créatif."
+    "questionFr": "Vous considérez votre esprit comme plus pratique que créatif.",
+    "type": "n"
   },
   {
     "id": 15,
     "questionEn": "",
-    "questionFr": "Les gens peuvent rarement vous contrarier."
+    "questionFr": "Les gens peuvent rarement vous contrarier.",
+    "type": "n"
   },
   {
     "id": 16,
     "questionEn": "",
-    "questionFr": "Vos itinéraires de voyage sont généralement planifiés à l’avance."
+    "questionFr": "Vos itinéraires de voyage sont généralement planifiés à l’avance.",
+    "type": "n"
   },
   {
     "id": 17,
     "questionEn": "",
-    "questionFr": "Vous avez des difficultés à ressentir de l’empathie pour les sentiments des autres."
+    "questionFr": "Vous avez des difficultés à ressentir de l’empathie pour les sentiments des autres.",
+    "type": "n"
   },
   {
     "id": 18,
     "questionEn": "Your mood can change very quickly.",
-    "questionFr": "Votre humeur peut changer très rapidement."
+    "questionFr": "Votre humeur peut changer très rapidement.",
+    "type": "n"
   },
   {
     "id": 19,
     "questionEn": "",
-    "questionFr": "Au cours d’une discussion, la vérité doit passer avant la susceptibilité de chacun."
+    "questionFr": "Au cours d’une discussion, la vérité doit passer avant la susceptibilité de chacun.",
+    "type": "n"
   },
   {
     "id": 20,
     "questionEn": "In your opinion, it is sometimes OK to step on others to get ahead in life.",
-    "questionFr": "Vous vous inquiétez rarement des conséquences de vos actions sur vos pairs."
+    "questionFr": "Vous vous inquiétez rarement des conséquences de vos actions sur vos pairs.",
+    "type": "n"
   },
   {
     "id": 21,
     "questionEn": "Your personal work style is closer to spontaneous bursts of energy than to organized and consistent efforts.",
-    "questionFr": "Votre style de travail s’approche plus de pics d’énergie aléatoires que d’une approche méthodique et organisée."
+    "questionFr": "Votre style de travail s’approche plus de pics d’énergie aléatoires que d’une approche méthodique et organisée.",
+    "type": "n"
   },
   {
     "id": 22,
     "questionEn": "",
-    "questionFr": "Vous êtes souvent envieux(-se) des autres."
+    "questionFr": "Vous êtes souvent envieux(-se) des autres.",
+    "type": "n"
   },
   {
     "id": 23,
     "questionEn": "",
-    "questionFr": "Un livre ou un jeu vidéo de qualité sont souvent mieux qu’une soirée mondaine."
+    "questionFr": "Un livre ou un jeu vidéo de qualité sont souvent mieux qu’une soirée mondaine.",
+    "type": "n"
   },
   {
     "id": 24,
     "questionEn": "",
-    "questionFr": "Être capable de développer un plan et de s’y tenir est la partie la plus importante de chaque projet."
+    "questionFr": "Être capable de développer un plan et de s’y tenir est la partie la plus importante de chaque projet.",
+    "type": "n"
   },
   {
     "id": 25,
     "questionEn": "",
-    "questionFr": "Vous ne vous laissez distraire que rarement par vos rêves et pensées."
+    "questionFr": "Vous ne vous laissez distraire que rarement par vos rêves et pensées.",
+    "type": "n"
   },
   {
     "id": 26,
     "questionEn": "",
-    "questionFr": "Vous êtes souvent perdu(e) dans vos pensées lorsque vous marchez dans la nature."
+    "questionFr": "Vous êtes souvent perdu(e) dans vos pensées lorsque vous marchez dans la nature.",
+    "type": "n"
   },
   {
     "id": 27,
     "questionEn": "",
-    "questionFr": "Si quelqu’un ne répond pas rapidement à votre e-mail, vous vous inquiétez et vous demandez si vous avez dit quelque chose de ma"
+    "questionFr": "Si quelqu’un ne répond pas rapidement à votre e-mail, vous vous inquiétez et vous demandez si vous avez dit quelque chose de mal",
+    "type": "n"
   },
   {
     "id": 28,
     "questionEn": "",
-    "questionFr": "En tant que parent, vous préféreriez voir votre enfant devenir gentil plutôt qu’intelligent."
+    "questionFr": "En tant que parent, vous préféreriez voir votre enfant devenir gentil plutôt qu’intelligent.",
+    "type": "n"
   },
   {
     "id": 29,
     "questionEn": "",
-    "questionFr": "Vous ne laissez pas les autres influencer vos actions."
+    "questionFr": "Vous ne laissez pas les autres influencer vos actions.",
+    "type": "n"
   },
   {
     "id": 30,
     "questionEn": "",
-    "questionFr": "Vos rêves ont tendance à se concentrer sur le monde réel et ses événements."
+    "questionFr": "Vos rêves ont tendance à se concentrer sur le monde réel et ses événements.",
+    "type": "n"
   },
   {
     "id": 31,
     "questionEn": "",
-    "questionFr": "Il vous faut peu de temps pour vous impliquer dans les activités sociales de votre nouveau lieu de travail."
+    "questionFr": "Il vous faut peu de temps pour vous impliquer dans les activités sociales de votre nouveau lieu de travail.",
+    "type": "n"
   },
   {
     "id": 32,
     "questionEn": "",
-    "questionFr": "Vous êtes plus du genre à improviser naturellement qu’à tout planifier minutieusement."
+    "questionFr": "Vous êtes plus du genre à improviser naturellement qu’à tout planifier minutieusement.",
+    "type": "n"
   },
   {
     "id": 33,
     "questionEn": "Your emotions control you more than you control them.",
-    "questionFr": "Vos émotions vous contrôlent plus que vous ne les contrôlez."
+    "questionFr": "Vos émotions vous contrôlent plus que vous ne les contrôlez.",
+    "type": "n"
   },
   {
     "id": 34,
     "questionEn": "",
-    "questionFr": "Vous appréciez d’aller à des soirées déguisées ou de participer à des jeux de rôle."
+    "questionFr": "Vous appréciez d’aller à des soirées déguisées ou de participer à des jeux de rôle.",
+    "type": "n"
   },
   {
     "id": 35,
     "questionEn": "",
-    "questionFr": "Vous passez souvent du temps à explorer des idées irréalistes et irréalisables, mais aussi intriguantes."
+    "questionFr": "Vous passez souvent du temps à explorer des idées irréalistes et irréalisables, mais aussi intriguantes.",
+    "type": "n"
   },
   {
     "id": 36,
     "questionEn": "",
-    "questionFr": "Vous préféreriez improviser que passer de temps sur la construction d’un plan détaillé."
+    "questionFr": "Vous préféreriez improviser que passer de temps sur la construction d’un plan détaillé.",
+    "type": "n"
   },
   {
     "id": 37,
     "questionEn": "",
-    "questionFr": "Vous êtes une personne relativement calme et réservée."
+    "questionFr": "Vous êtes une personne relativement calme et réservée.",
+    "type": "n"
   },
   {
     "id": 38,
     "questionEn": "",
-    "questionFr": "Si vous aviez une entreprise, vous trouveriez difficile de licencier des employés loyaux mais qui n’atteignent pas leurs objectifs."
+    "questionFr": "Si vous aviez une entreprise, vous trouveriez difficile de licencier des employés loyaux mais qui n’atteignent pas leurs objectifs.",
+    "type": "n"
   },
   {
     "id": 39,
     "questionEn": "You often contemplate the reasons for human existence or the meaning of life.",
-    "questionFr": "Vous réfléchissez souvent aux raisons de l’existence humaine."
+    "questionFr": "Vous réfléchissez souvent aux raisons de l’existence humaine.",
+    "type": "n"
   },
   {
     "id": 40,
     "questionEn": "",
-    "questionFr": "La logique est généralement plus importante que les sentiments lorsqu’il s’agit de prendre des décisions importantes."
+    "questionFr": "La logique est généralement plus importante que les sentiments lorsqu’il s’agit de prendre des décisions importantes.",
+    "type": "n"
   },
   {
     "id": 41,
     "questionEn": "",
-    "questionFr": "Il est plus important de maintenir un choix de possibilités ouvert plutôt que d’avoir une liste de choses à faire."
+    "questionFr": "Il est plus important de maintenir un choix de possibilités ouvert plutôt que d’avoir une liste de choses à faire.",
+    "type": "n"
   },
   {
     "id": 42,
     "questionEn": "",
-    "questionFr": "Si vos amis sont vraiment tristes à propos d’une situation, vous êtes plus susceptible de leur offrir un soutien émotionnel que de leur suggérer des solutions au problème."
+    "questionFr": "Si vos amis sont vraiment tristes à propos d’une situation, vous êtes plus susceptible de leur offrir un soutien émotionnel que de leur suggérer des solutions au problème.",
+    "type": "n"
   },
   {
     "id": 43,
     "questionEn": "",
-    "questionFr": "Vous vous sentez rarement inquiet(-ète)."
+    "questionFr": "Vous vous sentez rarement inquiet(-ète).",
+    "type": "n"
   },
   {
     "id": 44,
     "questionEn": "",
-    "questionFr": "Vous n’avez aucune difficulté à établir un programme personnel et à vous y tenir."
+    "questionFr": "Vous n’avez aucune difficulté à établir un programme personnel et à vous y tenir.",
+    "type": "n"
   },
   {
     "id": 45,
     "questionEn": "",
-    "questionFr": "En travail d’équipe, il est plus important d’avoir raison que d’être coopératif."
+    "questionFr": "En travail d’équipe, il est plus important d’avoir raison que d’être coopératif.",
+    "type": "n"
   },
   {
     "id": 46,
     "questionEn": "",
-    "questionFr": "Vous pensez que les opinions de tous doivent être respectées, indépendamment du fait qu’elles soient justifiées ou non par des faits."
+    "questionFr": "Vous pensez que les opinions de tous doivent être respectées, indépendamment du fait qu’elles soient justifiées ou non par des faits.",
+    "type": "n"
   },
   {
     "id": 47,
     "questionEn": "",
-    "questionFr": "Votre énergie est multipliée si vous avez passé du temps avec un groupe."
+    "questionFr": "Votre énergie est multipliée si vous avez passé du temps avec un groupe.",
+    "type": "n"
   },
   {
     "id": 48,
     "questionEn": "",
-    "questionFr": "Vous perdez fréquemment vos affaires."
+    "questionFr": "Vous perdez fréquemment vos affaires.",
+    "type": "n"
   },
   {
     "id": 49,
     "questionEn": "",
-    "questionFr": "Vous vous considérez comme très stable au niveau émotionnel."
+    "questionFr": "Vous vous considérez comme très stable au niveau émotionnel.",
+    "type": "n"
   },
   {
     "id": 50,
     "questionEn": "",
-    "questionFr": "Votre esprit regorge constamment d’idées et de plans à explorer."
+    "questionFr": "Votre esprit regorge constamment d’idées et de plans à explorer.",
+    "type": "n"
   },
   {
     "id": 51,
     "questionEn": "",
-    "questionFr": "Vous ne vous considérez pas comme un rêveur / une rêveuse."
+    "questionFr": "Vous ne vous considérez pas comme un rêveur / une rêveuse.",
+    "type": "n"
   },
   {
     "id": 52,
     "questionEn": "",
-    "questionFr": "Vous avez des difficultés à vous détendre lorsque vous parlez devant de nombreuses personnes."
+    "questionFr": "Vous avez des difficultés à vous détendre lorsque vous parlez devant de nombreuses personnes.",
+    "type": "n"
   },
   {
     "id": 53,
     "questionEn": "",
-    "questionFr": "Généralement, vous vous fiez davantage à votre expérience qu’à votre imagination."
+    "questionFr": "Généralement, vous vous fiez davantage à votre expérience qu’à votre imagination.",
+    "type": "n"
   },
   {
     "id": 54,
     "questionEn": "",
-    "questionFr": "Vous vous souciez trop de ce que pensent les gens."
+    "questionFr": "Vous vous souciez trop de ce que pensent les gens.",
+    "type": "n"
   },
   {
     "id": 55,
     "questionEn": "",
-    "questionFr": "Si la pièce est remplie de monde, vous restez près des murs et évitez le centre."
+    "questionFr": "Si la pièce est remplie de monde, vous restez près des murs et évitez le centre.",
+    "type": "n"
   },
   {
     "id": 56,
     "questionEn": "",
-    "questionFr": "Vous avez tendance à tout remettre à plus tard jusqu’à ce qu’il ne reste plus assez de temps pour tout faire."
+    "questionFr": "Vous avez tendance à tout remettre à plus tard jusqu’à ce qu’il ne reste plus assez de temps pour tout faire.",
+    "type": "n"
   },
   {
     "id": 57,
     "questionEn": "",
-    "questionFr": "Vous vous sentez très anxieux(-se) dans les situations stressantes."
+    "questionFr": "Vous vous sentez très anxieux(-se) dans les situations stressantes.",
+    "type": "n"
   },
   {
     "id": 58,
     "questionEn": "",
-    "questionFr": "Vous croyez qu’il est plus gratifiant d’être apprécié(e) par les autres que d’être puissant(e)."
+    "questionFr": "Vous croyez qu’il est plus gratifiant d’être apprécié(e) par les autres que d’être puissant(e).",
+    "type": "n"
   },
   {
     "id": 59,
     "questionEn": "",
-    "questionFr": "Vous avez toujours été intéressé(e) par les sujets ambigus et atypiques (par ex. : livres, art, films indépendants)."
+    "questionFr": "Vous avez toujours été intéressé(e) par les sujets ambigus et atypiques (par ex. : livres, art, films indépendants).",
+    "type": "n"
   },
   {
     "id": 60,
     "questionEn": "",
-    "questionFr": "Vous prenez souvent l’initiative dans les situations sociales."
+    "questionFr": "Vous prenez souvent l’initiative dans les situations sociales.",
+    "type": "n"
   }
 ]
