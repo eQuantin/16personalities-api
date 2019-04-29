@@ -6,7 +6,7 @@ const all = require('../data/all.json');
 const upload = multer();
 const Router = express.Router();
 
-const process = arr => {
+const settingArr = arr => {
     let ans = arr.map(elem => {
         let obj = {
             id : 0,
@@ -24,30 +24,103 @@ const process = arr => {
     return ans;
 };
 
-const perso = (personality, arr) => {
-    let ans = process(arr);
-
+const computPer = (personality, arr) => {
+    let ans = settingArr(arr);
     let len = ans.length;
+    
 
     for (let i = 0; i < len; i++) {
-        if (ans[i].answer === 0) {
-
+        if (ans[i].type === mind) {
+            ans[i].ans === 0 ? personality.mind += 5 :
+            ans[i].ans === 2 ? personality.mind -= 5 :
+            null;
         }
         
-        else if (ans[i].answer === 1) {
-
+        else if (ans[i].type === energy) {
+            ans[i].ans === 0 ? personality.energy += 5 :
+            ans[i].ans === 2 ? personality.energy -= 5 :
+            null;
         }
 
-        else if (ans[i].answer === 2) {
+        else if (ans[i].type === nature) {
+            ans[i].ans === 0 ? personality.nature += 5 :
+            ans[i].ans === 2 ? personality.nature -= 5 :
+            null;
+        }
 
+        else if (ans[i].type === tactics) {
+            ans[i].ans === 0 ? personality.tactics += 5 :
+            ans[i].ans === 2 ? personality.tactics -= 5 :
+            null;
+        }
+
+        else if (ans[i].type === identity) {
+            ans[i].ans === 0 ? personality.identity += 5 :
+            ans[i].ans === 2 ? personality.identity -= 5 :
+            null;
         }
     }
 
     return personality;
 };
 
+const findPers = (personality, arr) => {
+    personality = computPer(personality, arr);
+
+    personality.mind == 50 && personality.energy == 50 && personality.nature == 50
+    && personality.tactics == 50 ? personality.personality = "Indecis" :
+
+    personality.mind > 50 && personality.energy > 50 && personality.nature > 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy > 50 && personality.nature > 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy < 50 && personality.nature > 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy < 50 && personality.nature > 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy > 50 && personality.nature < 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy > 50 && personality.nature < 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy < 50 && personality.nature < 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy < 50 && personality.nature < 50
+    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy > 50 && personality.nature > 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy > 50 && personality.nature > 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy < 50 && personality.nature > 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy < 50 && personality.nature > 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy > 50 && personality.nature < 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy > 50 && personality.nature < 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind > 50 && personality.energy < 50 && personality.nature < 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+
+    personality.mind < 50 && personality.energy < 50 && personality.nature < 50
+    && personality.tactics < 50 ? personality.personality = "je sais pas" : null;
+
+}
+
 Router.get('/', upload.array(), function (req, res) {
-    console.log(req.body);
     res.status(200);
 
     let reqBody =[{answer: [2, ""]}, {answer: [1, ""]}];
@@ -67,11 +140,9 @@ Router.get('/', upload.array(), function (req, res) {
         personality : ""
     }
 
-    ans = perso(personality, ans);
+    ans = findPers(personality, ans);
 
-    console.log(ans)
-
-    res.send(ans).end();
+    res.send(JSON.stringify(ans)).end();
 });
 
 module.exports = Router;
