@@ -118,6 +118,7 @@ const findPers = (personality, arr) => {
     personality.mind < 50 && personality.energy < 50 && personality.nature < 50
     && personality.tactics < 50 ? personality.personality = "je sais pas" : null;
 
+    return personality;
 }
 
 Router.get('/', upload.array(), function (req, res) {
@@ -141,8 +142,9 @@ Router.get('/', upload.array(), function (req, res) {
     }
 
     ans = findPers(personality, ans);
+    console.log(ans);
 
-    res.send(JSON.stringify(ans)).end();
+    res.send(JSON.stringify(ans));
 });
 
 module.exports = Router;
