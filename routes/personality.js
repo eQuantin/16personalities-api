@@ -31,26 +31,26 @@ const computPer = (personality, arr) => {
 
     for (let i = 0; i < len; i++) {
         if (ans[i].type === personality.mind) {
-            ans[i].ans === 0 ? personality.mind += 5 :
-            ans[i].ans === 2 ? personality.mind -= 5 :
+            ans[i].ans === 0 ? personality.mind += 7.5 :
+            ans[i].ans === 2 ? personality.mind -= 7.5 :
             null;
         }
         
         else if (ans[i].type === personality.energy) {
-            ans[i].ans === 0 ? personality.energy += 5 :
-            ans[i].ans === 2 ? personality.energy -= 5 :
+            ans[i].ans === 0 ? personality.energy += 4.3 :
+            ans[i].ans === 2 ? personality.energy -= 4.3 :
             null;
         }
 
         else if (ans[i].type === personality.nature) {
-            ans[i].ans === 0 ? personality.nature += 5 :
-            ans[i].ans === 2 ? personality.nature -= 5 :
+            ans[i].ans === 0 ? personality.nature += 3.5 :
+            ans[i].ans === 2 ? personality.nature -= 3.5 :
             null;
         }
 
         else if (ans[i].type === personality.tactics) {
-            ans[i].ans === 0 ? personality.tactics += 5 :
-            ans[i].ans === 2 ? personality.tactics -= 5 :
+            ans[i].ans === 0 ? personality.tactics += 6.7 :
+            ans[i].ans === 2 ? personality.tactics -= 6.7 :
             null;
         }
 
@@ -124,7 +124,7 @@ const findPers = (personality, arr) => {
 Router.get('/', upload.array(), function (req, res) {
     res.status(200);
 
-    let reqBody =[{answer: [2, ""]}, {answer: [1, ""]}];
+    let reqBody = req.query.ans;
 
     let ans = [];
 
