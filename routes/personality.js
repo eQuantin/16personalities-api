@@ -124,7 +124,7 @@ const findPers = (personality, arr) => {
 Router.get('/', upload.array(), function (req, res) {
     res.status(200);
     console.log(req.query.ans);
-    if (req.body.ans.length == 0) {
+    if (req.body.ans.length == '[]') {
         res.status(400).end();
     }
 
