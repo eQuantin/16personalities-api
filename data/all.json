@@ -15,7 +15,7 @@
     "id": 3,
     "questionEn": "",
     "questionFr": "Vous essayez de répondre dès que possible à vos e-mails et ne supportez pas d’avoir une boîte de messagerie mal organisée.",
-    "type": "tactics"
+    "type": "tacticss"
   },
   {
     "id": 4,
@@ -63,7 +63,7 @@
     "id": 11,
     "questionEn": "",
     "questionFr": "Vous avez souvent l’impression de devoir vous justifier auprès de vos pairs.",
-    "type": "tactics"
+    "type": "tacticss"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "id": 20,
     "questionEn": "In your opinion, it is sometimes OK to step on others to get ahead in life.",
     "questionFr": "Vous vous inquiétez rarement des conséquences de vos actions sur vos pairs.",
-    "type": "tactic"
+    "type": "tactics"
   },
   {
     "id": 21,
@@ -165,7 +165,7 @@
     "id": 28,
     "questionEn": "",
     "questionFr": "En tant que parent, vous préféreriez voir votre enfant devenir gentil plutôt qu’intelligent.",
-    "type": "tactics"
+    "type": "tacticss"
   },
   {
     "id": 29,
@@ -213,7 +213,7 @@
     "id": 36,
     "questionEn": "",
     "questionFr": "Vous préféreriez improviser que passer de temps sur la construction d’un plan détaillé.",
-    "type": "tactic"
+    "type": "tactics"
   },
   {
     "id": 37,
@@ -243,7 +243,7 @@
     "id": 41,
     "questionEn": "",
     "questionFr": "Il est plus important de maintenir un choix de possibilités ouvert plutôt que d’avoir une liste de choses à faire.",
-    "type": "tactic"
+    "type": "tactics"
   },
   {
     "id": 42,
@@ -267,7 +267,7 @@
     "id": 45,
     "questionEn": "",
     "questionFr": "En travail d’équipe, il est plus important d’avoir raison que d’être coopératif.",
-    "type": "tactic"
+    "type": "tactics"
   },
   {
     "id": 46,
@@ -303,7 +303,7 @@
     "id": 51,
     "questionEn": "",
     "questionFr": "Vous ne vous considérez pas comme un rêveur / une rêveuse.",
-    "type": "tactic"
+    "type": "tactics"
   },
   {
     "id": 52,
@@ -315,7 +315,7 @@
     "id": 53,
     "questionEn": "",
     "questionFr": "Généralement, vous vous fiez davantage à votre expérience qu’à votre imagination.",
-    "type": "tactic"
+    "type": "tactics"
   },
   {
     "id": 54,

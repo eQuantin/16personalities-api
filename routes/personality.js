@@ -26,46 +26,63 @@ const settingArr = arr => {
 
 const computPer = (personality, arr) => {
     let ans = settingArr(arr);
-    let len = ans.length;
+    let len = 60;
 
-    console.log(ans);
+    let mind = 50;
+    let energy = 50;
+    let nature = 50;
+    let tactics = 50;
+    let identity = 50;
     
 
     for (let i = 0; i < len; i++) {
+
         if (ans[i].type == "mind") {
-            ans[i].ans === 0 ? personality.mind += 7.5 :
-            ans[i].ans === 2 ? personality.mind -= 7.5 :
-            null;
-            console.log("ok");
+            if (ans[i].answer == 0)
+                mind += 7.5;
+            else if (ans[i].answer == 2)
+                mind -= 7.5;
+            console.log("mind");
         }
         
         else if (ans[i].type == "energy") {
-            ans[i].ans === 0 ? personality.energy += 4.3 :
-            ans[i].ans === 2 ? personality.energy -= 4.3 :
-            null;
-            console.log("ok");
+            if (ans[i].answer == 0)
+                energy += 7.5;
+            else if (ans[i].answer == 2)
+                energy -= 7.5;
+            console.log("energy");
         }
 
         else if (ans[i].type == "nature") {
-            ans[i].ans === 0 ? personality.nature += 3.5 :
-            ans[i].ans === 2 ? personality.nature -= 3.5 :
-            null;
-            console.log("ok");
+            if (ans[i].answer == 0)
+                nature += 7.5;
+            else if (ans[i].answer == 2)
+                nature -= 7.5;
+            console.log("nature");
         }
 
         else if (ans[i].type == "tactics") {
-            ans[i].ans === 0 ? personality.tactics += 6.7 :
-            ans[i].ans === 2 ? personality.tactics -= 6.7 :
-            null;
-            console.log("ok");
+            if (ans[i].answer == 0)
+                tactics += 7.5;
+            else if (ans[i].answer == 2)
+                tactics -= 7.5;
+            console.log("tactics");
         }
 
         else if (ans[i].type == "identity") {
-            ans[i].ans === 0 ? personality.identity += 5 :
-            ans[i].ans === 2 ? personality.identity -= 5 :
-            null;
+            if (ans[i].answer == 0)
+                identity += 7.5;
+            else if (ans[i].answer == 2)
+                identity -= 7.5;
+            console.log("identity");
         }
     }
+    
+    personality.mind = mind;
+    personality.nature = nature;
+    personality.identity = identity;
+    personality.tactics = tactics;
+    personality.energy = energy;
 
     console.log(personality);
 
@@ -78,53 +95,53 @@ const findPers = (personality, arr) => {
     personality.mind == 50 && personality.energy == 50 && personality.nature == 50
     && personality.tactics == 50 ? personality.personality = "Logician" :
 
-    personality.mind > 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "Architect" :
+    personality.mind >= 50 && personality.energy >= 50 && personality.nature >= 50
+    && personality.tactics >= 50 ? personality.personality = "Architect" :
 
-    personality.mind < 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "Logician" :
+    personality.mind <= 50 && personality.energy >= 50 && personality.nature >= 50
+    && personality.tactics >= 50 ? personality.personality = "Logician" :
 
-    personality.mind > 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "Commander" :
+    personality.mind >= 50 && personality.energy <= 50 && personality.nature >= 50
+    && personality.tactics >= 50 ? personality.personality = "Commander" :
 
-    personality.mind < 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "Debater" :
+    personality.mind <= 50 && personality.energy <= 50 && personality.nature >= 50
+    && personality.tactics >= 50 ? personality.personality = "Debater" :
 
-    personality.mind > 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "Advocate" :
+    personality.mind >= 50 && personality.energy >= 50 && personality.nature <= 50
+    && personality.tactics >= 50 ? personality.personality = "Advocate" :
 
-    personality.mind < 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "Mediator" :
+    personality.mind <= 50 && personality.energy >= 50 && personality.nature <= 50
+    && personality.tactics >= 50 ? personality.personality = "Mediator" :
 
-    personality.mind > 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "Protagonist" :
+    personality.mind >= 50 && personality.energy <= 50 && personality.nature <= 50
+    && personality.tactics >= 50 ? personality.personality = "Protagonist" :
 
-    personality.mind < 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "Compaigner" :
+    personality.mind <= 50 && personality.energy <= 50 && personality.nature <= 50
+    && personality.tactics >= 50 ? personality.personality = "Compaigner" :
 
-    personality.mind > 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "Logistician" :
+    personality.mind >= 50 && personality.energy >= 50 && personality.nature >= 50
+    && personality.tactics <= 50 ? personality.personality = "Logistician" :
 
-    personality.mind < 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "Defender" :
+    personality.mind <= 50 && personality.energy >= 50 && personality.nature >= 50
+    && personality.tactics <= 50 ? personality.personality = "Defender" :
 
-    personality.mind > 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "Executive" :
+    personality.mind >= 50 && personality.energy <= 50 && personality.nature >= 50
+    && personality.tactics <= 50 ? personality.personality = "Executive" :
 
-    personality.mind < 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "Consul" :
+    personality.mind <= 50 && personality.energy <= 50 && personality.nature >= 50
+    && personality.tactics <= 50 ? personality.personality = "Consul" :
 
-    personality.mind > 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "Virtuoso" :
+    personality.mind >= 50 && personality.energy >= 50 && personality.nature <= 50
+    && personality.tactics <= 50 ? personality.personality = "Virtuoso" :
 
-    personality.mind < 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "Adventurer" :
+    personality.mind <= 50 && personality.energy >= 50 && personality.nature <= 50
+    && personality.tactics <= 50 ? personality.personality = "Adventurer" :
 
-    personality.mind > 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "Entrepreneur" :
+    personality.mind >= 50 && personality.energy <= 50 && personality.nature <= 50
+    && personality.tactics <= 50 ? personality.personality = "Entrepreneur" :
 
-    personality.mind < 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "Entertainer" : null;
+    personality.mind <= 50 && personality.energy <= 50 && personality.nature <= 50
+    && personality.tactics <= 50 ? personality.personality = "Entertainer" : null;
 
     return personality;
 }
