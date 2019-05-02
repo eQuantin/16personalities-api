@@ -27,6 +27,8 @@ const settingArr = arr => {
 const computPer = (personality, arr) => {
     let ans = settingArr(arr);
     let len = ans.length;
+
+    console.log(ans);
     
 
     for (let i = 0; i < len; i++) {
