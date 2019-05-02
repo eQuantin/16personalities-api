@@ -1,0 +1,98 @@
+      [
+      {
+      "id":1,
+      "persoTitle": "Architecte",
+      "persoAttribut": "~ INTJ ~",
+      "smallDesc": "Leader naturel qui aspire à la perfection. Objectif, indépendant, conceptuel et adaptable."
+      },
+      {
+      "id":2,
+      "persoTitle": "Logicien",
+      "persoAttribut": "~ INTP ~",
+      "smallDesc": "Penseur né, difficile à cerner. Logique, original, créatif. Doté d'une grande soif de connaissances"
+      },
+      {
+      "id":3,
+      "persoTitle": "Commandant",
+      "persoAttribut": "~ ENTJ ~",
+      "smallDesc": "Leader naturel qui aspire à la perfection. Objectif, indépendant, conceptuel et adaptable."
+      },
+      {
+      "id":4,
+      "persoTitle": "Innovateur",
+      "persoAttribut": "~ ENTP ~",
+      "smallDesc": "Enthousiastes, optimistes et visionnaires, les innovateurs sont en quête d'améliorations perpetuelles."
+      },
+      {
+      "id":5,
+      "persoTitle": "Avocat",
+      "persoAttribut": "~ INFJ ~",
+      "smallDesc": "Idéalistes et moralisateurs, leur determination sans faille leur permet de réaliser de grandes choses."
+      },
+      {
+      "id":6,
+      "persoTitle": "Mediateur",
+      "persoAttribut": "~ INFP ~",
+      "smallDesc": "En constante recherche du bien, ils trouvent toujours une lueur d'espoir même dans les moments les plus sombres."
+      },
+      {
+      "id":7,
+      "persoTitle": "Protagoniste",
+      "persoAttribut": "~ ENFJ ~",
+      "smallDesc": "Passionés, authentiques et charismastiques, les protagonistes savent inspirer les gens autour d'eux."
+      },
+      {
+      "id":8,
+      "persoTitle": "Inspirateur",
+      "persoAttribut": "~ ENFP ~",
+      "smallDesc": "Indépendants, charmants, à la recherche de la liberté, les inspirateurs y consacreront une energie sans limites."
+      },
+      {
+      "id":9,
+      "persoTitle": "Logisticien",
+      "persoAttribut": "~ ISTJ ~",
+      "smallDesc": "Perfectionnistes, calmes et avec le sens des responsabilités, les logisticiens feront tout pour atteindre leurs buts."
+      },
+      {
+      "id":10,
+      "persoTitle": "Defenseur",
+      "persoAttribut": "~ ISFJ ~",
+      "smallDesc": "Altruistes, enthousiastes et généreux, les defensuers répondent à la bonté par encore plus de bonté."
+      },
+      {
+      "id":11,
+      "persoTitle": "Directeur",
+      "persoAttribut": "~ ESTJ ~",
+      "smallDesc": "Honnêteté, dignité et dévouement sont les adjectifs qui correspondent le mieux aux directeurs."
+      },
+      {
+      "id":12,
+      "persoTitle": "Consul",
+      "persoAttribut": "~ ESFJ ~",
+      "smallDesc": "Régulièrement sous la lumière des projecteurs, ils mènent leur entourage vers la réussite."
+      },
+      {
+      "id":13,
+      "persoTitle": "Virtuose",
+      "persoAttribut": "~ ISTP ~",
+      "smallDesc": "Les virtuoses sont les explorateurs de notre monde, ils ont besoin d'examiner ce qui les entoure avec curiosité."
+      },
+      {
+      "id":14,
+      "persoTitle": "Aventurier",
+      "persoAttribut": "~ ISFP ~",
+      "smallDesc": "Les aventuriers sont de vrais artistes, ils aiment sortir des terrains battus et pas être rangés dans une case."
+      },
+      {
+      "id":15,
+      "persoTitle": "Entrepreneur",
+      "persoAttribut": "~ ESTP ~",
+      "smallDesc": "Souvent volontaires, les entrepreuneurs savent se faire remarquer et aiment attirer l'attention autour d'eux."
+      },
+      {
+      "id":16,
+      "persoTitle": "Amuseur",
+      "persoAttribut": "~ ESFP ~",
+      "smallDesc": "Les amuseurs adorent être sous les feux des projecteurs, faire rire, pour eux le monde entier est une scène !"
+      }
+    ]

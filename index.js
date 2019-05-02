@@ -6,6 +6,8 @@ const morgan = require('morgan');
 const question = require('./routes/question.js');
 const personality = require('./routes/personality.js');
 
+const result = require('./data/result.json');
+
 const app = express();
 
 // USE
@@ -37,6 +39,10 @@ app.use('/personality', personality);
 // ROUTES
 app.get('/', (req, res) => {
     res.status(404).end();
+});
+
+app.get('/result', (req, res) => {
+    res.send(result);
 });
 
 let server = app.listen(3500, () => {
