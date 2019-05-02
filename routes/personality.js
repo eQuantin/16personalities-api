@@ -30,36 +30,38 @@ const computPer = (personality, arr) => {
     
 
     for (let i = 0; i < len; i++) {
-        if (ans[i].type === "mind") {
+        if (ans[i].type == "mind") {
             ans[i].ans === 0 ? personality.mind += 7.5 :
             ans[i].ans === 2 ? personality.mind -= 7.5 :
             null;
         }
         
-        else if (ans[i].type === "energy") {
+        else if (ans[i].type == "energy") {
             ans[i].ans === 0 ? personality.energy += 4.3 :
             ans[i].ans === 2 ? personality.energy -= 4.3 :
             null;
         }
 
-        else if (ans[i].type === "nature") {
+        else if (ans[i].type == "nature") {
             ans[i].ans === 0 ? personality.nature += 3.5 :
             ans[i].ans === 2 ? personality.nature -= 3.5 :
             null;
         }
 
-        else if (ans[i].type === "tactics") {
+        else if (ans[i].type == "tactics") {
             ans[i].ans === 0 ? personality.tactics += 6.7 :
             ans[i].ans === 2 ? personality.tactics -= 6.7 :
             null;
         }
 
-        else if (ans[i].type === "identity") {
+        else if (ans[i].type == "identity") {
             ans[i].ans === 0 ? personality.identity += 5 :
             ans[i].ans === 2 ? personality.identity -= 5 :
             null;
         }
     }
+
+    console.log(personality);
 
     return personality;
 };
@@ -130,8 +132,6 @@ Router.get('/', upload.array(), function (req, res) {
     for (let i = 0; i < reqBody.length; i+= 2) {
         ans.push(reqBody[i]);
     }
-
-    console.log(ans);
 
     let personality = {
         mind : 50,
