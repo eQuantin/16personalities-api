@@ -129,7 +129,7 @@ Router.get('/', upload.array(), function (req, res) {
     let ans = [];
 
     reqBody.map(obj => {
-        ans.push(obj.answer[0]);
+        ans.push(obj);
     });
 
     let personality = {
