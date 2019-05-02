@@ -30,31 +30,31 @@ const computPer = (personality, arr) => {
     
 
     for (let i = 0; i < len; i++) {
-        if (ans[i].type === personality.mind) {
+        if (ans[i].type === "mind") {
             ans[i].ans === 0 ? personality.mind += 7.5 :
             ans[i].ans === 2 ? personality.mind -= 7.5 :
             null;
         }
         
-        else if (ans[i].type === personality.energy) {
+        else if (ans[i].type === "energy") {
             ans[i].ans === 0 ? personality.energy += 4.3 :
             ans[i].ans === 2 ? personality.energy -= 4.3 :
             null;
         }
 
-        else if (ans[i].type === personality.nature) {
+        else if (ans[i].type === "nature") {
             ans[i].ans === 0 ? personality.nature += 3.5 :
             ans[i].ans === 2 ? personality.nature -= 3.5 :
             null;
         }
 
-        else if (ans[i].type === personality.tactics) {
+        else if (ans[i].type === "tactics") {
             ans[i].ans === 0 ? personality.tactics += 6.7 :
             ans[i].ans === 2 ? personality.tactics -= 6.7 :
             null;
         }
 
-        else if (ans[i].type === personality.identity) {
+        else if (ans[i].type === "identity") {
             ans[i].ans === 0 ? personality.identity += 5 :
             ans[i].ans === 2 ? personality.identity -= 5 :
             null;
