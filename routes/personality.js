@@ -126,6 +126,9 @@ Router.get('/', upload.array(), function (req, res) {
 
     let ans = req.query.ans;
 
+    console.log(ans);
+    
+
     let personality = {
         mind : 50,
         energy : 50,
