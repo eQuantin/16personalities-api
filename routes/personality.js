@@ -124,9 +124,15 @@ const findPers = (personality, arr) => {
 Router.get('/', upload.array(), function (req, res) {
     res.status(200);
 
-    let ans = req.query.ans;
+    let reqBody = req.query.ans;
+    let ans = [];
+
+    for (let i = 0; i < reqBody.length; i+= 2) {
+        ans.push(reqBody[i]);
+    }
+
+    console.log(reqBody, ans);
     
-    console.log(ans, ans[1]);
 
     let personality = {
         mind : 50,
