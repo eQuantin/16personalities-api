@@ -68,55 +68,55 @@ const findPers = (personality, arr) => {
     personality = computPer(personality, arr);
 
     personality.mind == 50 && personality.energy == 50 && personality.nature == 50
-    && personality.tactics == 50 ? personality.personality = "Indecis" :
+    && personality.tactics == 50 ? personality.personality = "Logician" :
 
     personality.mind > 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Architect" :
 
     personality.mind < 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Logician" :
 
     personality.mind > 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Commander" :
 
     personality.mind < 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Debater" :
 
     personality.mind > 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Advocate" :
 
     personality.mind < 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Mediator" :
 
     personality.mind > 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Protagonist" :
 
     personality.mind < 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics > 50 ? personality.personality = "je sais pas" :
+    && personality.tactics > 50 ? personality.personality = "Compaigner" :
 
     personality.mind > 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Logistician" :
 
     personality.mind < 50 && personality.energy > 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Defender" :
 
     personality.mind > 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Executive" :
 
     personality.mind < 50 && personality.energy < 50 && personality.nature > 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Consul" :
 
     personality.mind > 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Virtuoso" :
 
     personality.mind < 50 && personality.energy > 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Adventurer" :
 
     personality.mind > 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" :
+    && personality.tactics < 50 ? personality.personality = "Entrepreneur" :
 
     personality.mind < 50 && personality.energy < 50 && personality.nature < 50
-    && personality.tactics < 50 ? personality.personality = "je sais pas" : null;
+    && personality.tactics < 50 ? personality.personality = "Entertainer" : null;
 
     return personality;
 }
