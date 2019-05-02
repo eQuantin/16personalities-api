@@ -129,10 +129,7 @@ Router.get('/', upload.array(), function (req, res) {
 
     for (let i = 0; i < reqBody.length; i+= 2) {
         ans.push(reqBody[i]);
-    }
-
-    console.log(reqBody, ans);
-    
+    }    
 
     let personality = {
         mind : 50,
@@ -144,7 +141,6 @@ Router.get('/', upload.array(), function (req, res) {
     }
 
     ans = findPers(personality, ans);
-    console.log(ans);
 
     res.send(JSON.stringify(ans));
 });
